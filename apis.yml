@@ -1,9 +1,29 @@
 aid: green-eye-technology
 name: Green Eye Technology
-description: Green Eye Technology is a company surfaced as a portfolio company of techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Greeneye Technology is an agricultural technology company that builds AI-powered precision
+  spraying systems for weed management. Its retrofit hardware and computer-vision software integrate
+  into existing farm sprayers to identify weeds in real time and apply herbicide only where it is
+  needed, enabling Green-on-Green (weed-versus-crop) and Green-on-Brown (bare-soil) selective
+  application that can reduce herbicide use by up to 90 percent while performing species-level
+  analysis to help combat herbicide resistance. The company positions its dual-line system as a way
+  for growers to cut chemical costs, reduce soil contamination, and address the roughly $100 billion
+  in annual crop losses attributed to weeds. Greeneye is a Techstars-backed company and was added to
+  the API Evangelist network from that portfolio; it currently publishes a marketing and product
+  site but no public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/green-eye-technology/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://greeneye.ag/wp-content/uploads/2021/05/icon-greeneye.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Precision Agriculture
+- Artificial Intelligence
+- Computer Vision
+- Weed Management
+- Precision Spraying
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/green-eye-technology-domain-security.yml
 - type: Website
   url: https://greeneye.ag/
+- type: PrivacyPolicy
+  url: https://greeneye.ag/privacy-policy/
+- type: TermsOfService
+  url: https://greeneye.ag/terms/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
